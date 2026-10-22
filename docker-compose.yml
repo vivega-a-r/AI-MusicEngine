@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: infra/docker/Dockerfile.backend
+    container_name: incubrix_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - STORAGE_DIR=/app/storage/audio
+      - DB_PATH=/app/storage/jobs.db
+      - ENABLE_LOCAL_DEV_AUTH=true
+      - MAX_WORKER_CONCURRENCY=4
+    volumes:
+      - audio_storage:/app/storage
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: .
+      dockerfile: infra/docker/Dockerfile.frontend
+    container_name: incubrix_frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  audio_storage:
+    driver: local

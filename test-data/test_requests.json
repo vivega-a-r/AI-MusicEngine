@@ -1,0 +1,97 @@
+[
+  {
+    "name": "startup_launch_warm_acoustic",
+    "prompt": "Warm, optimistic acoustic instrumental music with an uplifting finish",
+    "duration_s": 45.0,
+    "sections": [
+      {"start_s": 0.0, "mood": "calm intro"},
+      {"start_s": 12.5, "mood": "build-up"},
+      {"start_s": 30.0, "mood": "uplifting peak"}
+    ],
+    "tempo_bpm": 100,
+    "key": "C major",
+    "loopable": false,
+    "seed": 42
+  },
+  {
+    "name": "quick_logo_ident_5s",
+    "prompt": "Punchy modern corporate logo intro with bright bell resolution",
+    "duration_s": 5.0,
+    "tempo_bpm": 120,
+    "key": "G major",
+    "loopable": false,
+    "seed": 101
+  },
+  {
+    "name": "cinematic_trailer_dramatic",
+    "prompt": "Epic cinematic trailer with building percussion and dramatic cadence",
+    "duration_s": 30.0,
+    "tempo_bpm": 84,
+    "key": "D minor",
+    "loopable": false,
+    "seed": 202
+  },
+  {
+    "name": "lofi_study_chillhop_loop",
+    "prompt": "Chill lo-fi study beats with warm electric keys and mellow groove",
+    "duration_s": 24.0,
+    "tempo_bpm": 78,
+    "key": "Eb major",
+    "loopable": true,
+    "seed": 303
+  },
+  {
+    "name": "high_energy_workout",
+    "prompt": "Driving energetic dance workout track with punchy drums and synth bass",
+    "duration_s": 20.0,
+    "tempo_bpm": 128,
+    "key": "A minor",
+    "loopable": false,
+    "seed": 404
+  },
+  {
+    "name": "calm_acoustic_meditation",
+    "prompt": "Peaceful soothing acoustic guitar and warm upright bass for wellness video",
+    "duration_s": 15.0,
+    "tempo_bpm": 72,
+    "key": "C major",
+    "loopable": false,
+    "seed": 505
+  },
+  {
+    "name": "tense_investigative_mystery",
+    "prompt": "Tense dark mystery background with subtle ticks and dissonant chords",
+    "duration_s": 16.0,
+    "tempo_bpm": 88,
+    "key": "F minor",
+    "loopable": false,
+    "seed": 606
+  },
+  {
+    "name": "playful_comedy_game",
+    "prompt": "Playful quirky bouncy theme with pizzicato and acoustic bounce",
+    "duration_s": 12.0,
+    "tempo_bpm": 116,
+    "key": "F major",
+    "loopable": true,
+    "seed": 707
+  },
+  {
+    "name": "corporate_explainer_presentation",
+    "prompt": "Clean professional corporate explainer background with positive forward motion",
+    "duration_s": 30.0,
+    "tempo_bpm": 108,
+    "key": "D major",
+    "loopable": false,
+    "seed": 808
+  },
+  {
+    "name": "ambient_soundscape_space",
+    "prompt": "Deep ambient shimmering atmospheric soundscape with gentle harmonic shifts",
+    "duration_s": 18.0,
+    "tempo_bpm": 68,
+    "key": "A dorian",
+    "loopable": true,
+    "seed": 909
+  }
+]
