@@ -1,0 +1,127 @@
+{
+  "manifest_version": "1.0.0",
+  "job_id": "job_5cf9e6e56680",
+  "created_at": "2026-10-25T09:57:48.494618+00:00",
+  "user_id": "creator_pro",
+  "original_prompt": "15-second tech product background music, modern and focused, light electronic pulse, upbeat yet subtle, no vocals, smooth loop point",
+  "normalized_prompt": "15-second tech product background music, modern and focused, light electronic pulse, upbeat yet subtle, no vocals, smooth loop point",
+  "musical_parameters": {
+    "primary_mood": "corporate",
+    "genre": "corporate_motivational",
+    "energy": 0.65,
+    "instruments": {
+      "drums": "modern_pop_kit",
+      "bass": "clean_electric_bass",
+      "harmony": "clean_piano_chords",
+      "melody": "uplifting_glockenspiel"
+    }
+  },
+  "bpm": 72,
+  "meter": "4/4",
+  "key": "C major",
+  "scale": "major",
+  "seed": 42,
+  "chord_progression": [
+    "Fmaj",
+    "Cmaj",
+    "Gmaj",
+    "Cmaj"
+  ],
+  "section_timeline": [
+    {
+      "start_s": 0.0,
+      "mood": "intro"
+    },
+    {
+      "start_s": 3.5,
+      "mood": "build-up"
+    },
+    {
+      "start_s": 10.0,
+      "mood": "peak"
+    }
+  ],
+  "master_measurements": {
+    "sample_rate": 48000,
+    "bit_depth": 16,
+    "channels": 2,
+    "requested_duration_s": 15.0,
+    "actual_duration_s": 15.0,
+    "duration_difference_s": 0.0,
+    "integrated_lufs": -17.02,
+    "true_peak_dbtp": -1.0,
+    "max_sample_peak": 0.8913,
+    "clipping_detected": false
+  },
+  "stems": [
+    {
+      "name": "drums",
+      "file_path": "E:\\aimusic\\storage\\audio\\job_5cf9e6e56680\\stems\\drums.wav",
+      "download_url": "/audio/job_5cf9e6e56680/stems/drums.wav",
+      "gain": 0.85,
+      "duration_s": 15.0,
+      "duration_diff_s": 0.0,
+      "sample_rate": 48000,
+      "lufs": -11.85,
+      "true_peak_dbtp": 7.86
+    },
+    {
+      "name": "bass",
+      "file_path": "E:\\aimusic\\storage\\audio\\job_5cf9e6e56680\\stems\\bass.wav",
+      "download_url": "/audio/job_5cf9e6e56680/stems/bass.wav",
+      "gain": 0.9,
+      "duration_s": 15.0,
+      "duration_diff_s": 0.0,
+      "sample_rate": 48000,
+      "lufs": -5.19,
+      "true_peak_dbtp": 5.8
+    },
+    {
+      "name": "harmony",
+      "file_path": "E:\\aimusic\\storage\\audio\\job_5cf9e6e56680\\stems\\harmony.wav",
+      "download_url": "/audio/job_5cf9e6e56680/stems/harmony.wav",
+      "gain": 0.75,
+      "duration_s": 15.0,
+      "duration_diff_s": 0.0,
+      "sample_rate": 48000,
+      "lufs": -13.55,
+      "true_peak_dbtp": 8.78
+    },
+    {
+      "name": "melody",
+      "file_path": "E:\\aimusic\\storage\\audio\\job_5cf9e6e56680\\stems\\melody.wav",
+      "download_url": "/audio/job_5cf9e6e56680/stems/melody.wav",
+      "gain": 0.8,
+      "duration_s": 15.0,
+      "duration_diff_s": 0.0,
+      "sample_rate": 48000,
+      "lufs": -5.92,
+      "true_peak_dbtp": 3.9
+    }
+  ],
+  "composition_method": "Deterministic music-theory-driven procedural composition",
+  "rendering_engine": "Vectorized Algorithmic Multi-Timbral Polyphonic Synthesizer (NumPy / SciPy)",
+  "libraries_used": {
+    "numpy": "2.5.2",
+    "scipy": "1.17.1",
+    "mido": "1.3.3",
+    "pyloudnorm": "0.2.0",
+    "fastapi": "0.115.0"
+  },
+  "processing_time_s": 2.62,
+  "cost_estimate_usd": 0.0,
+  "cost_explanation": "Zero API fees. Executed 100% locally on CPU via procedural synthesis algorithms.",
+  "instrumental_output": true,
+  "ai_generation_label": "Procedural AI Music Composition Engine (Algorithmic / Rule-Based)",
+  "license_info": {
+    "output_license": "Royalty-Free / Full Commercial Use Permitted",
+    "sound_source": "Original mathematical waveform and Karplus-Strong physical modeling synthesis in source code; no external copyrighted sample packs or non-commercial soundfonts used.",
+    "commercial_safe": true
+  },
+  "narration_ducking": null,
+  "loop_validation": null,
+  "warnings": [
+    "Vocal request detected: This engine generates purely instrumental music. Melodic elements have been assigned to an expressive lead acoustic/instrumental voice."
+  ],
+  "validation_passed": true
+}
